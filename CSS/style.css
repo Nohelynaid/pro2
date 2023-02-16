@@ -1,0 +1,196 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 5%;
+    height: 460px;
+    width: 270px;
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    right: 500px;
+}
+
+
+
+.first-container {
+    position:relative;
+    bottom:60px;
+    align-items: center;
+}
+
+
+
+#img1 {
+    width: 240px;
+    height: 240px;
+    border-radius: 10%;
+    padding: 20px 20px 20px 15px;
+    position: relative;
+    top:50px
+}
+
+.svg-cont {
+    position: relative;
+    border-radius: 3%;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+  }
+
+
+.svg-cont .svg1{display:none;}
+
+.svg-cont:hover .svg1{ display: block;}
+
+.int-cont {
+    fill-opacity: initial;
+}
+
+
+.svg1 {
+    position: relative;
+    left: 98px;
+    top: 92px;
+  }
+
+
+.int-cont { 
+    border-radius: 3%;
+    position: relative;
+    left: 15px;
+    bottom: 215px;
+    width: 240px;
+    height: 240px;
+   
+}
+
+.int-cont:hover {
+    background-color: hsl(178, 100%, 50%) ;
+    opacity: 0.5;
+}
+
+
+
+/* second cont*/
+
+.second-container{
+    position: relative;
+    bottom: 250px;
+  
+}
+
+h4 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0.015rem;
+    padding-left: 20px;
+}
+
+h4:hover{ color: 
+     hsl(178, 100%, 50%);
+}
+
+.desc-one{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 20px;
+    
+
+}
+
+hr{
+    border: none;
+    background-color :hsl(215, 51%, 70%);
+    min-height: 1px;
+    margin: 15px auto ;
+    width: 90%;
+    position: relative;
+    bottom: 240px;
+
+}
+
+.et-icon{
+    margin-left: 20px;
+
+}
+
+
+.et{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    margin-right: 50px;
+    position: relative;
+    top:auto;
+    bottom: 3px;
+    left: 1px;
+}
+
+.clock{
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top:auto;
+    bottom: 3px;
+}
+
+
+
+/*THIRD CONT*/
+
+.third-container{
+    position: relative;
+    bottom: 240px;
+}
+
+
+.username:hover {
+    color: hsl(178, 100%, 50%) !important; /*the important rule is set to only "force" the code to apply that option 
+    instead of any other one within the css stylesheet*/
+}
+
+
+
+
+/*FOURTH CONT*/
+
+.fourth-container{
+    position: relative;
+    bottom: 260px;
+}
+
+.avatar{
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top:15px;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.desc-two{
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+    position: relative;
+    left: 55px;
+    bottom: 30px;
+    
+}
